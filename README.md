@@ -1,6 +1,9 @@
 # MKAnimationLibrary
 MK动画库
 
+效果展示:
+![](http://img01.taobaocdn.com/imgextra/i1/90628312/TB2AvOmcVXXXXaLXpXXXXXXXXXX_!!90628312.gif) 
+
 使用方法:
 1.导入头文件
 ----
