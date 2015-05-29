@@ -11,9 +11,8 @@ MK动画库
 2.调用单例传入需要显示动画效果的view,并告知想要执行的动画效果style
 ----
 ```oc
-[[MKAnimationManager shareInstancetype] showAnimationInView:self.topView withAnimationStyle:MKAnimationStyleOfSnow];
+[[MKAnimationManager shareInstancetype] showAnimationInView:destinationView withAnimationStyle:MKAnimationStyleOfSnow];
 ```
-
 
 目前支持的动画style:
 ----
@@ -21,7 +20,6 @@ MK动画库
 1.MKAnimationStyleOfSnow
 2.MKAnimationStyleOfLeaves
 ```
-
 
 素材来自网络,此处谨做学习使用,如有侵权,请告知我,我会尽快删除~
 
