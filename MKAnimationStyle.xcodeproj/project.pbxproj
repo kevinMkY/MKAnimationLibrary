@@ -14,6 +14,15 @@
 		458494021B16B5F6003DFC05 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 458494011B16B5F6003DFC05 /* Images.xcassets */; };
 		458494051B16B5F6003DFC05 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 458494031B16B5F6003DFC05 /* LaunchScreen.xib */; };
 		458494111B16B5F6003DFC05 /* MKAnimationStyleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 458494101B16B5F6003DFC05 /* MKAnimationStyleTests.m */; };
+		458494301B16BA4A003DFC05 /* UIView+RMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4584942F1B16BA4A003DFC05 /* UIView+RMAdditions.m */; };
+		4584944A1B16C522003DFC05 /* MKAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 458494371B16C522003DFC05 /* MKAnimationManager.m */; };
+		4584944B1B16C522003DFC05 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4584943B1B16C522003DFC05 /* UIImage+Extension.m */; };
+		4584944C1B16C522003DFC05 /* MKEmitterCustomLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4584943F1B16C522003DFC05 /* MKEmitterCustomLayer.m */; };
+		4584944D1B16C522003DFC05 /* MKEmitterLeavesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 458494421B16C522003DFC05 /* MKEmitterLeavesCell.m */; };
+		4584944E1B16C522003DFC05 /* leaves.png in Resources */ = {isa = PBXBuildFile; fileRef = 458494431B16C522003DFC05 /* leaves.png */; };
+		4584944F1B16C522003DFC05 /* MKEmitterSnowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 458494471B16C522003DFC05 /* MKEmitterSnowCell.m */; };
+		458494511B16C522003DFC05 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 458494491B16C522003DFC05 /* snow.png */; };
+		4584948A1B170845003DFC05 /* MKPublicParticleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 458494891B170845003DFC05 /* MKPublicParticleCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,22 @@
 		4584940A1B16B5F6003DFC05 /* MKAnimationStyleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKAnimationStyleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4584940F1B16B5F6003DFC05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		458494101B16B5F6003DFC05 /* MKAnimationStyleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKAnimationStyleTests.m; sourceTree = "<group>"; };
+		4584942E1B16BA4A003DFC05 /* UIView+RMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RMAdditions.h"; sourceTree = "<group>"; };
+		4584942F1B16BA4A003DFC05 /* UIView+RMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RMAdditions.m"; sourceTree = "<group>"; };
+		458494361B16C522003DFC05 /* MKAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKAnimationManager.h; sourceTree = "<group>"; };
+		458494371B16C522003DFC05 /* MKAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKAnimationManager.m; sourceTree = "<group>"; };
+		4584943A1B16C522003DFC05 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		4584943B1B16C522003DFC05 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		4584943E1B16C522003DFC05 /* MKEmitterCustomLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKEmitterCustomLayer.h; sourceTree = "<group>"; };
+		4584943F1B16C522003DFC05 /* MKEmitterCustomLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKEmitterCustomLayer.m; sourceTree = "<group>"; };
+		458494411B16C522003DFC05 /* MKEmitterLeavesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKEmitterLeavesCell.h; sourceTree = "<group>"; };
+		458494421B16C522003DFC05 /* MKEmitterLeavesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKEmitterLeavesCell.m; sourceTree = "<group>"; };
+		458494431B16C522003DFC05 /* leaves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaves.png; sourceTree = "<group>"; };
+		458494461B16C522003DFC05 /* MKEmitterSnowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKEmitterSnowCell.h; sourceTree = "<group>"; };
+		458494471B16C522003DFC05 /* MKEmitterSnowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKEmitterSnowCell.m; sourceTree = "<group>"; };
+		458494491B16C522003DFC05 /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
+		458494881B170845003DFC05 /* MKPublicParticleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKPublicParticleCell.h; sourceTree = "<group>"; };
+		458494891B170845003DFC05 /* MKPublicParticleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKPublicParticleCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +108,10 @@
 			children = (
 				458493F81B16B5F6003DFC05 /* AppDelegate.h */,
 				458493F91B16B5F6003DFC05 /* AppDelegate.m */,
+				4584942D1B16BA4A003DFC05 /* UIView+RMAdditions */,
 				458493FB1B16B5F6003DFC05 /* ViewController.h */,
 				458493FC1B16B5F6003DFC05 /* ViewController.m */,
+				458494341B16C522003DFC05 /* MKAnimationLibrary */,
 				458493FE1B16B5F6003DFC05 /* Main.storyboard */,
 				458494011B16B5F6003DFC05 /* Images.xcassets */,
 				458494031B16B5F6003DFC05 /* LaunchScreen.xib */,
@@ -117,6 +144,100 @@
 				4584940F1B16B5F6003DFC05 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4584942D1B16BA4A003DFC05 /* UIView+RMAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				4584942E1B16BA4A003DFC05 /* UIView+RMAdditions.h */,
+				4584942F1B16BA4A003DFC05 /* UIView+RMAdditions.m */,
+			);
+			path = "UIView+RMAdditions";
+			sourceTree = "<group>";
+		};
+		458494341B16C522003DFC05 /* MKAnimationLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				458494351B16C522003DFC05 /* MKAnimationManager */,
+				458494381B16C522003DFC05 /* MKAnimationStyle */,
+			);
+			path = MKAnimationLibrary;
+			sourceTree = "<group>";
+		};
+		458494351B16C522003DFC05 /* MKAnimationManager */ = {
+			isa = PBXGroup;
+			children = (
+				458494361B16C522003DFC05 /* MKAnimationManager.h */,
+				458494371B16C522003DFC05 /* MKAnimationManager.m */,
+			);
+			path = MKAnimationManager;
+			sourceTree = "<group>";
+		};
+		458494381B16C522003DFC05 /* MKAnimationStyle */ = {
+			isa = PBXGroup;
+			children = (
+				458494391B16C522003DFC05 /* Category+UIImage */,
+				4584943C1B16C522003DFC05 /* MKAnimationEmitterStyle */,
+			);
+			path = MKAnimationStyle;
+			sourceTree = "<group>";
+		};
+		458494391B16C522003DFC05 /* Category+UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				4584943A1B16C522003DFC05 /* UIImage+Extension.h */,
+				4584943B1B16C522003DFC05 /* UIImage+Extension.m */,
+			);
+			path = "Category+UIImage";
+			sourceTree = "<group>";
+		};
+		4584943C1B16C522003DFC05 /* MKAnimationEmitterStyle */ = {
+			isa = PBXGroup;
+			children = (
+				4584943D1B16C522003DFC05 /* EmitterLayer */,
+				458494441B16C522003DFC05 /* PublicParticleCell */,
+				458494401B16C522003DFC05 /* LevaesCell */,
+				458494451B16C522003DFC05 /* SnowCell */,
+			);
+			path = MKAnimationEmitterStyle;
+			sourceTree = "<group>";
+		};
+		4584943D1B16C522003DFC05 /* EmitterLayer */ = {
+			isa = PBXGroup;
+			children = (
+				4584943E1B16C522003DFC05 /* MKEmitterCustomLayer.h */,
+				4584943F1B16C522003DFC05 /* MKEmitterCustomLayer.m */,
+			);
+			path = EmitterLayer;
+			sourceTree = "<group>";
+		};
+		458494401B16C522003DFC05 /* LevaesCell */ = {
+			isa = PBXGroup;
+			children = (
+				458494411B16C522003DFC05 /* MKEmitterLeavesCell.h */,
+				458494421B16C522003DFC05 /* MKEmitterLeavesCell.m */,
+				458494431B16C522003DFC05 /* leaves.png */,
+			);
+			path = LevaesCell;
+			sourceTree = "<group>";
+		};
+		458494441B16C522003DFC05 /* PublicParticleCell */ = {
+			isa = PBXGroup;
+			children = (
+				458494881B170845003DFC05 /* MKPublicParticleCell.h */,
+				458494891B170845003DFC05 /* MKPublicParticleCell.m */,
+			);
+			path = PublicParticleCell;
+			sourceTree = "<group>";
+		};
+		458494451B16C522003DFC05 /* SnowCell */ = {
+			isa = PBXGroup;
+			children = (
+				458494461B16C522003DFC05 /* MKEmitterSnowCell.h */,
+				458494471B16C522003DFC05 /* MKEmitterSnowCell.m */,
+				458494491B16C522003DFC05 /* snow.png */,
+			);
+			path = SnowCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +321,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				458494001B16B5F6003DFC05 /* Main.storyboard in Resources */,
+				458494511B16C522003DFC05 /* snow.png in Resources */,
+				4584944E1B16C522003DFC05 /* leaves.png in Resources */,
 				458494051B16B5F6003DFC05 /* LaunchScreen.xib in Resources */,
 				458494021B16B5F6003DFC05 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +342,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4584944D1B16C522003DFC05 /* MKEmitterLeavesCell.m in Sources */,
 				458493FD1B16B5F6003DFC05 /* ViewController.m in Sources */,
+				4584948A1B170845003DFC05 /* MKPublicParticleCell.m in Sources */,
 				458493FA1B16B5F6003DFC05 /* AppDelegate.m in Sources */,
+				4584944F1B16C522003DFC05 /* MKEmitterSnowCell.m in Sources */,
+				458494301B16BA4A003DFC05 /* UIView+RMAdditions.m in Sources */,
+				4584944B1B16C522003DFC05 /* UIImage+Extension.m in Sources */,
 				458493F71B16B5F6003DFC05 /* main.m in Sources */,
+				4584944C1B16C522003DFC05 /* MKEmitterCustomLayer.m in Sources */,
+				4584944A1B16C522003DFC05 /* MKAnimationManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +476,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MKAnimationStyle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -356,6 +487,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MKAnimationStyle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -414,6 +546,7 @@
 				458494161B16B5F6003DFC05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		458494171B16B5F6003DFC05 /* Build configuration list for PBXNativeTarget "MKAnimationStyleTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +555,7 @@
 				458494191B16B5F6003DFC05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
