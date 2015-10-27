@@ -25,7 +25,5 @@ MK动画库
 ```
 后续会不断添加新的动画效果,希望同各位多交流
 
-个人简书:[http://www.jianshu.com/users/fce038424835/latest_articles](http://www.jianshu.com/users/fce038424835/latest_articles "欢迎交流~O(∩_∩)O~~")
-
 PS:素材来自网络,此处谨做学习使用,如有侵权,请告知我,我会尽快删除~
 
